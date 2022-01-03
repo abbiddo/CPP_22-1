@@ -6,9 +6,11 @@
 **/
 
 #include <iostream> 
-void triangle(int w, int h){
-	std::cout<<"삼각형의 넓이는 : "<<w*h/2;
+
+int triangle(int w, int h){
+	return w*h/2;
 } 
+
 int main() {
 	int width, height;
 	
@@ -17,7 +19,7 @@ int main() {
 	std::cout<<"높이를 입력하세요 : ";
 	std::cin>>height;
 	
-	triangle(width,height);
+	std::cout<<"삼각형의 넓이는 : "<<triangle(width,height);
 }
 
 /**
