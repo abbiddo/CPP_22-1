@@ -48,6 +48,9 @@ int main() {
 						std::cout<<i<<" ";
 				std::cout<<"\n";
 				break;
+				
+			default:
+				std::cout<<"잘못된 입력입니다.\n";
 		}
 	}
 }
